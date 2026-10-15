@@ -22,6 +22,7 @@
             <a href="">Cotizacion por Whatsapp</a>
         </ul>
     </nav>
+    <main>
         <section>
             <h2>Productos </h2>
             <article>
@@ -108,33 +109,34 @@
         <section>
             <h2>Calculadora de Pedidos</h2>
             <form action="#" method="post">
-        <div>
-          <label>Cantidad de Piezas a Cotizar</label><br>
-          <input type="number" placeholder="1" required>
-        </div>
-        <br>
-        <div>
-          <label>Tipo de Mueble</label><br>
-          <select>
-            <option>Pupitre Universitario</option>
-            <option>Escritorio Ejecutivo</option>
-            <option>Estanteria de Pino</option>
-            <option>Silla Ergonomica</option>
-          </select>
-        </div>
-        <br>
-        <div>
-          <label>Destino</label><br>
-          <select>
-            <option>Pupitre Universitario</option>
-            <option>Escritorio Ejecutivo</option>
-            <option>Estanteria de Pino</option>
-            <option>Silla Ergonomica</option>
-          </select>
-        </div>
-        <br>
-        <button type="submit">Enviar Mensaje</button>
-      </form>
+                <div>
+                    <label>Cantidad de Piezas a Cotizar</label><br>
+                    <input type="number" placeholder="1" required>
+                </div>
+                <br>
+                <div>
+                    <label>Tipo de Mueble</label><br>
+                    <select>
+                        <option>Pupitre Universitario</option>
+                        <option>Escritorio Ejecutivo</option>
+                        <option>Estanteria de Pino</option>
+                        <option>Silla Ergonomica</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label>Destino</label><br>
+                    <select>
+                        <option>Siguatepeque/Comayagua - Flete: L. 300</option>
+                        <option>Tegucigalpa/SPS - Flete: L. 1000</option>
+                        <option>Roatan/Islas de la Bahia - Flete: L. 3500</option>
+                    </select>
+                </div>
+                <br>
+                <p>Descuento del 12% a partir de 10 piezas</p>
+                <button type="submit">Calcular Presupuesto</button>
+                <p>EL precio estimado de su pedido es L. xxxx</p>
+            </form>
         </section>
         <section>
             <h2>Datos Tecnicos</h2>
@@ -187,14 +189,61 @@
                     </tr>
                 </tbody>
             </table>
+            <br>
+        </section>
+        <section>
+            <h2>Formulario Requisitos y Licitaciones</h2>
+            <form action="#" method="post">
+                <div>
+                    <label>Nombre completo:</label><br>
+                    <input type="text" placeholder="Escribe tu Nombre" required>
+                </div>
+                <br>
+                <div>
+                    <label>Correo electrónico:</label><br>
+                    <input type="email" placeholder="nombre@correo.com" required>
+                </div>
+                <br>
+                <div>
+                    <label>RTN: </label><br>
+                    <input type="text" pattern="\d{14}" placeholder="Ingrese su RTN">
+                </div>
+                <br>
+                <div>
+                    <label>Telefono: </label><br>
+                    <input type="text" pattern="\d{4}-\d{4}" placeholder="Ingrese su Telefono">
+                </div>
+                <br>
+                <div>
+                    <label>Departamento de Entrega</label><br>
+                    <select>
+                        <option>Comayagua</option>
+                        <option>Francisco Morazan</option>
+                        <option>Roatan/Islas de la Bahia</option>
+                        <option>Cortes</option>
+                        <option>Atlantida</option>
+                        <option>La Paz</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <input type="checkbox">
+                    <label>Acepto los terminos de y condiciones de Garantia Forestal</label>
+                </div>
+                <br>
+                <div>
+                    
+                </div>
+                <button type="submit">Enviar Cotizacion</button>
+                <button type="reset">Limpiar Formulario</button>
+            </form>
         </section>
     </main>
     
     <footer>
         <p>Encuentranos en Sigueatepeque km114 carretera CA-5, Tel: 2773-8978</p>
         <p>Encuentranos en Tegucigalpa Blvd. Morazan, Tel: 2773-8978</p>
-        <p>Encuentranos en<a href="www.facebook.com">Facebook</a></p>
-        <p>Encuentranos en<a hrerf="www.instagram.com">Instagram</a></p>
+        <P>Nuestras Redes Sociales son <a href="https://www.facebook.com"> Facebook</a> e <a href="https://www.instagram.com">Instagram</a></P>
         <p>Portal desarrollado para la asignatura <strong>ISC-305 Programación Web</strong> | UNAH.</p>
         <p>Desarrollado por Francisco Emanuel Cruz Gomez 20201002174</p>
     </footer>
